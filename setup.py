@@ -14,6 +14,8 @@ setup(
         'Topic :: Software Development',
         'Programming Language :: Python :: 2',
         'Programming Language :: Python :: 2.7',
+        'Programming Language :: Python :: 3',
+        'Programming Language :: Python :: 3.4',
     ],
     keywords='django sso',
     author='Jonas Obrist',
@@ -37,4 +39,5 @@ setup(
     },
     include_package_data=True,
     zip_safe=False,
+    use_2to3=True
 )
